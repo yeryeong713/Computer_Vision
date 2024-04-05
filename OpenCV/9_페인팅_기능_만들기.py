@@ -17,7 +17,7 @@ def painting(event, x, y, flags, param):
 
     cv2.imshow('Painting', img)
 
-img=cv2.imread('C:/Users/demon/Desktop/img(OpenCV)/apples.jpg')
+img=cv2.imread('Desktop/img(OpenCV)/apples.jpg')
 
 if img is None:
   sys.exit('파일을 찾을 수 없음')
