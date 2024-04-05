@@ -2,7 +2,7 @@
 import cv2 as cv
 import sys
 
-img = cv.imread('C:/Users/demon/Desktop/img(OpenCV)/soccer.jpg')
+img = cv.imread('Desktop/img(OpenCV)/soccer.jpg')
 
 if img is None:
     sys.exit('파일이 존재하지 않음')
