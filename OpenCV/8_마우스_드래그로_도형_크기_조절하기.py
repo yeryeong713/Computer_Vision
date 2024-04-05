@@ -2,7 +2,7 @@
 import cv2 as cv
 import sys
 
-img=cv.imread('C:/Users/demon/Desktop/img(OpenCV)/apples.jpg')
+img=cv.imread('Desktop/img(OpenCV)/apples.jpg')
 
 if img is None:
   sys.exit('파일을 찾을 수 없음')
