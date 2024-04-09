@@ -1,6 +1,3 @@
-#pip install --upgrade scikit-image
-#pip install scikit-image==0.18.3
-
 import skimage
 import numpy as np
 import cv2
