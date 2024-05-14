@@ -5,7 +5,7 @@ from tensorflow.keras.applications.densenet import DenseNet121
 from tensorflow.keras.utils import image_dataset_from_directory 
 import pathlib
 
-data_path=pathlib.Path('c:/Users/demon/Desktop/datasets/Stanford_dogs/Images')
+data_path=pathlib.Path('datasets/Stanford_dogs/Images')
 
 train_ds=image_dataset_from_directory(data_path,validation_split=0.2, subset ='training',seed=123,image_size=(224,224), batch_size=16) 
 test_ds=image_dataset_from_directory(data_path, validation_split=0.2, subset ='validation',seed=123,image_size=(224,224), batch_size=16)
